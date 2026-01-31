@@ -19,7 +19,7 @@ This project implements an Arabic morphology system using advanced data structur
 ### Why These Principles?
 
 - **Complexity Reduction**: Arabic text processing + custom data structures = high complexity. We combat this by isolation and modular design.
-- **Documentation**: Future maintainers (including yourself) need to understand *why* decisions were made, not just *what* was implemented.
+- **Documentation**: Future maintainers (including yourself) need to understand _why_ decisions were made, not just _what_ was implemented.
 - **Incremental Progress**: Prevents "integration hell" and allows for easier debugging.
 - **Git Discipline**: Creates a clear history of the development process for learning and rollback.
 
@@ -344,11 +344,11 @@ This project implements an Arabic morphology system using advanced data structur
 
 **Tasks**:
 
-- [ ] Create `UnicodeHelper.cpp`
-- [ ] Implement `utf8_to_utf32(const string&) → u32string`
-- [ ] Implement `utf32_to_utf8(const u32string&) → string`
-- [ ] Add validation (detect invalid UTF-8 sequences)
-- [ ] Test with various Arabic text samples
+- [x] Create `UnicodeHelper.cpp`
+- [x] Implement `utf8_to_utf32(const string&) → u32string`
+- [x] Implement `utf32_to_utf8(const u32string&) → string`
+- [x] Add validation (detect invalid UTF-8 sequences)
+- [x] Test with various Arabic text samples
 
 **Deliverable**: `src/UnicodeHelper.cpp`
 **Commit Message**: `feat: Implement UTF-8/UTF-32 conversion utilities`
@@ -1010,16 +1010,16 @@ Low Level:   AVLTree, HashTable, UnicodeHelper
 
 ## Timeline Estimate
 
-| Phase | Duration | Cumulative |
-|-------|----------|------------|
-| Phase 1: Foundation | 2 hours | 2h |
-| Phase 2: Data Structures | 8 hours | 10h |
-| Phase 3: Text Processing | 3 hours | 13h |
-| Phase 4: Business Logic | 6 hours | 19h |
-| Phase 5: CLI | 3 hours | 22h |
-| Phase 6: Testing | 4 hours | 26h |
-| Phase 7: GUI (Optional) | 8 hours | 34h |
-| Phase 8: Optimization | 3 hours | 37h |
+| Phase                    | Duration | Cumulative |
+| ------------------------ | -------- | ---------- |
+| Phase 1: Foundation      | 2 hours  | 2h         |
+| Phase 2: Data Structures | 8 hours  | 10h        |
+| Phase 3: Text Processing | 3 hours  | 13h        |
+| Phase 4: Business Logic  | 6 hours  | 19h        |
+| Phase 5: CLI             | 3 hours  | 22h        |
+| Phase 6: Testing         | 4 hours  | 26h        |
+| Phase 7: GUI (Optional)  | 8 hours  | 34h        |
+| Phase 8: Optimization    | 3 hours  | 37h        |
 
 **Total**: ~37 hours (or ~26 hours without GUI)
 
@@ -1066,7 +1066,7 @@ This plan prioritizes:
 By following this plan, you will:
 
 - Build a robust, maintainable system
-- Understand *why* each decision was made
+- Understand _why_ each decision was made
 - Have a portfolio piece with excellent documentation
 - Learn advanced data structures deeply through implementation
 
