@@ -1,0 +1,9 @@
+build/
+.vscode/
+.DS_Store
+*.o
+*.exe
+bin/
+lib/
+*~
+*.swp

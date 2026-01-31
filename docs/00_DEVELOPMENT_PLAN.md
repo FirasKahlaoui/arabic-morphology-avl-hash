@@ -89,14 +89,14 @@ This project implements an Arabic morphology system using advanced data structur
 
 **Tasks**:
 
-- [ ] Create `src/` directory for source files
-- [ ] Create `include/` directory for headers
-- [ ] Create `tests/` directory for unit tests
-- [ ] Create `data/` directory for input files (roots, schemes)
-- [ ] Create `build/` directory for compiled outputs
-- [ ] Create CMakeLists.txt for build configuration
-- [ ] Create .gitignore for build artifacts
-- [ ] Create README.md with project overview
+- [x] Create `src/` directory for source files
+- [x] Create `include/` directory for headers
+- [x] Create `tests/` directory for unit tests
+- [x] Create `data/` directory for input files (roots, schemes)
+- [x] Create `build/` directory for compiled outputs
+- [x] Create Makefile for build configuration
+- [x] Create .gitignore for build artifacts
+- [x] Create README.md with project overview
 
 **Deliverable**: Clean project structure
 **Commit Message**: `init: Setup project structure with CMake build system`
@@ -116,10 +116,10 @@ This project implements an Arabic morphology system using advanced data structur
 
 **Tasks**:
 
-- [ ] Add UTF-8 compiler flags in CMakeLists.txt
-- [ ] Include `<codecvt>` and `<locale>` for conversions
-- [ ] Create utility header `UnicodeHelper.h` with conversion functions
-- [ ] Test UTF-8 string literals with sample Arabic text
+- [x] Add UTF-8 compiler flags in Makefile
+- [x] Include `<codecvt>` and `<locale>` for conversions
+- [x] Create utility header `UnicodeHelper.h` with conversion functions
+- [x] Test UTF-8 string literals with sample Arabic text
 
 **Deliverable**: Working UTF-8 configuration
 **Commit Message**: `feat: Configure UTF-8 support for Arabic text processing`
