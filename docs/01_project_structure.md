@@ -4,7 +4,7 @@
 
 We have adopted a standard C++ project layout to ensure scalability and separation of concerns.
 
-```
+```text
 /
 ├── src/          # Implementation files (.cpp) - The actual logic
 ├── include/      # Header files (.h) - Interfaces and declarations
