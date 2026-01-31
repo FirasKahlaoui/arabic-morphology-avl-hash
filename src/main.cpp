@@ -9,8 +9,8 @@ int main()
     std::u32string u32test = utf8_to_utf32(test);
 
     std::cout << "UTF-8 String: " << test << std::endl;
-    std::cout << "Length in bytes: " << test.length() << std::endl;          // Should be 6 for 3 chars
-    std::cout << "Length in code points: " << u32test.length() << std::endl; // Should be 3
+    std::cout << "Length in bytes: " << test.length() << std::endl;
+    std::cout << "Length in code points: " << u32test.length() << std::endl;
 
     if (is_arabic(u32test))
     {
