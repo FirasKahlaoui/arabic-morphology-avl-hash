@@ -1,7 +1,7 @@
 # CLI Interaction Flow
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'textColor': '#000000', 'actorTextColor': '#000000', 'signalTextColor': '#000000', 'noteTextColor': '#000000', 'loopTextColor': '#000000', 'lineColor': '#000000'}}}%%
+%%{init: {'theme': 'base', 'themeVariables': { 'textColor': '#000000', 'actorTextColor': '#000000', 'signalTextColor': '#000000', 'noteTextColor': '#000000', 'loopTextColor': '#000000', 'lineColor': '#000000', 'background': '#ffffff'}}}%%
 sequenceDiagram
     %% CLI Interaction
     actor User

@@ -1,7 +1,7 @@
 # Validation Process
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryTextColor': '#000000', 'edgeLabelTextColor': '#000000', 'lineColor': '#000000'}}}%%
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryTextColor': '#000000', 'edgeLabelTextColor': '#000000', 'lineColor': '#000000', 'background': '#ffffff'}}}%%
 graph TD
     %% Validation Process
     classDef check fill:#fff7ed,stroke:#c2410c,stroke-width:2px,color:#000000;

@@ -1,7 +1,7 @@
 # Hash Table with Chaining
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryTextColor': '#000000', 'edgeLabelTextColor': '#000000', 'lineColor': '#000000'}}}%%
+%%{init: {'theme': 'base', 'darkMode': false, 'themeVariables': { 'primaryTextColor': '#000000', 'edgeLabelTextColor': '#000000', 'lineColor': '#000000', 'background': '#ffffff', 'mainBkg': '#ffffff'}}}%%
 graph LR
     %% Hash Table with Chaining
     classDef bucket fill:#ccfbf1,stroke:#0f766e,stroke-width:2px,color:#000000;

@@ -1,7 +1,7 @@
 # AVL Tree Structure
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryTextColor': '#000000', 'edgeLabelTextColor': '#000000', 'lineColor': '#000000'}}}%%
+%%{init: {'theme': 'base', 'darkMode': false, 'themeVariables': { 'primaryTextColor': '#000000', 'edgeLabelTextColor': '#000000', 'lineColor': '#000000', 'background': '#ffffff', 'mainBkg': '#ffffff'}}}%%
 graph TD
     %% AVL Tree Structure
     classDef node fill:#f3e8ff,stroke:#6b21a8,stroke-width:2px,rx:5,ry:5,color:#000000;

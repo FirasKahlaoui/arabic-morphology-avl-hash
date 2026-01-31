@@ -1,7 +1,7 @@
 # Scheme Representation
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'textColor': '#000000', 'classText': '#000000', 'lineColor': '#000000'}}}%%
+%%{init: {'theme': 'base', 'darkMode': false, 'themeVariables': { 'textColor': '#000000', 'classText': '#000000', 'lineColor': '#000000', 'background': '#ffffff', 'mainBkg': '#ffffff'}}}%%
 classDiagram
     %% Scheme Class Detail
     class Scheme {
