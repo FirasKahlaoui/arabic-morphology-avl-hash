@@ -141,11 +141,11 @@ This project implements an Arabic morphology system using advanced data structur
 
 **Tasks**:
 
-- [ ] Create `AVLNode.h` with struct definition
-- [ ] Add members: `string root`, `int height`, `left/right pointers`
-- [ ] Add `vector<DerivedWord>` for validated words
-- [ ] Create `DerivedWord` struct with `string word` and `int frequency`
-- [ ] Add constructor and destructor
+- [x] Create `AVLNode.h` with struct definition
+- [x] Add members: `string root`, `int height`, `left/right pointers`
+- [x] Add `vector<DerivedWord>` for validated words
+- [x] Create `DerivedWord` struct with `string word` and `int frequency`
+- [x] Add constructor and destructor
 
 **Deliverable**: `include/AVLNode.h`
 **Commit Message**: `feat: Implement AVL tree node structure with derived words list`
@@ -165,13 +165,13 @@ This project implements an Arabic morphology system using advanced data structur
 
 **Tasks**:
 
-- [ ] Create `AVLTree.h` class declaration
-- [ ] Implement `rotateRight()` for LL case
-- [ ] Implement `rotateLeft()` for RR case
-- [ ] Implement `rotateLeftRight()` for LR case (right on left child, then left on parent)
-- [ ] Implement `rotateRightLeft()` for RL case (left on right child, then right on parent)
-- [ ] Add height update helper: `updateHeight(node)`
-- [ ] Add balance factor helper: `getBalance(node)`
+- [x] Create `AVLTree.h` class declaration
+- [x] Implement `rotateRight()` for LL case
+- [x] Implement `rotateLeft()` for RR case
+- [x] Implement `rotateLeftRight()` for LR case (right on left child, then left on parent)
+- [x] Implement `rotateRightLeft()` for RL case (left on right child, then right on parent)
+- [x] Add height update helper: `updateHeight(node)`
+- [x] Add balance factor helper: `getBalance(node)`
 
 **Deliverable**: `include/AVLTree.h` with rotation functions
 **Commit Message**: `feat: Implement AVL tree rotation functions (LL, RR, LR, RL)`
@@ -191,13 +191,13 @@ This project implements an Arabic morphology system using advanced data structur
 
 **Tasks**:
 
-- [ ] Implement `insert(root, key)` recursive function
-- [ ] Add base case: null node → create new node
-- [ ] Add recursive cases: compare and recurse left or right
-- [ ] Update height after insertion
-- [ ] Calculate balance factor
-- [ ] Apply appropriate rotation based on balance factor and comparison
-- [ ] Handle duplicate roots (ignore or update)
+- [x] Implement `insert(root, key)` recursive function
+- [x] Add base case: null node → create new node
+- [x] Add recursive cases: compare and recurse left or right
+- [x] Update height after insertion
+- [x] Calculate balance factor
+- [x] Apply appropriate rotation based on balance factor and comparison
+- [x] Handle duplicate roots (ignore or update)
 
 **Deliverable**: `src/AVLTree.cpp` with insert implementation
 **Commit Message**: `feat: Implement AVL tree insert with automatic balancing`
@@ -217,10 +217,10 @@ This project implements an Arabic morphology system using advanced data structur
 
 **Tasks**:
 
-- [ ] Implement `search(root, key)` → returns pointer to node or nullptr
-- [ ] Implement `inorderTraversal()` → visits all nodes sorted
-- [ ] Implement `getHeight()` and `size()` utility functions
-- [ ] Add `clear()` for memory cleanup
+- [x] Implement `search(root, key)` → returns pointer to node or nullptr
+- [x] Implement `inorderTraversal()` → visits all nodes sorted
+- [x] Implement `getHeight()` and `size()` utility functions
+- [x] Add `clear()` for memory cleanup
 
 **Deliverable**: Complete AVL tree operations
 **Commit Message**: `feat: Implement AVL search and traversal operations`
@@ -240,14 +240,14 @@ This project implements an Arabic morphology system using advanced data structur
 
 **Tasks**:
 
-- [ ] Create `tests/test_avl.cpp`
-- [ ] Test insert sequential order (worst case for unbalanced tree)
-- [ ] Test insert random order
-- [ ] Test all rotation cases with specific sequences
-- [ ] Test search existing and non-existing keys
-- [ ] Test traversal order correctness
-- [ ] Verify height balance after insertions
-- [ ] Test with Arabic strings (كتب، درس، خرج، etc.)
+- [x] Create `tests/test_avl.cpp`
+- [x] Test insert sequential order (worst case for unbalanced tree)
+- [x] Test insert random order
+- [x] Test all rotation cases with specific sequences
+- [x] Test search existing and non-existing keys
+- [x] Test traversal order correctness
+- [x] Verify height balance after insertions
+- [x] Test with Arabic strings (كتب، درس، خرج، etc.)
 
 **Deliverable**: Passing test suite
 **Commit Message**: `test: Add comprehensive AVL tree unit tests`
@@ -267,11 +267,11 @@ This project implements an Arabic morphology system using advanced data structur
 
 **Tasks**:
 
-- [ ] Create `SchemeEntry.h` with struct: name, pattern, next pointer
-- [ ] Create `HashTable.h` class with bucket array
-- [ ] Decide bucket size (prime number, e.g., 101 for ~100 schemes)
-- [ ] Implement hash function for Arabic strings (UTF-8 byte sum mod table_size)
-- [ ] Add collision counter for analysis
+- [x] Create `SchemeEntry.h` with struct: name, pattern, next pointer
+- [x] Create `HashTable.h` class with bucket array
+- [x] Decide bucket size (prime number, e.g., 101 for ~100 schemes)
+- [x] Implement hash function for Arabic strings (UTF-8 byte sum mod table_size)
+- [x] Add collision counter for analysis
 
 **Deliverable**: `include/HashTable.h` and `include/SchemeEntry.h`
 **Commit Message**: `feat: Implement hash table structure with chaining`
@@ -291,12 +291,12 @@ This project implements an Arabic morphology system using advanced data structur
 
 **Tasks**:
 
-- [ ] Implement `insert(scheme)` → hash, find bucket, add to chain
-- [ ] Implement `search(name)` → hash, traverse chain
-- [ ] Implement `remove(name)` → hash, traverse, unlink node
-- [ ] Implement `update(name, newPattern)` → search + modify
-- [ ] Implement `display()` → show all buckets and chains
-- [ ] Implement `getLoadFactor()` for performance monitoring
+- [x] Implement `insert(scheme)` → hash, find bucket, add to chain
+- [x] Implement `search(name)` → hash, traverse chain
+- [x] Implement `remove(name)` → hash, traverse, unlink node
+- [x] Implement `update(name, newPattern)` → search + modify
+- [x] Implement `display()` → show all buckets and chains
+- [x] Implement `getLoadFactor()` for performance monitoring
 
 **Deliverable**: `src/HashTable.cpp` with complete operations
 **Commit Message**: `feat: Implement hash table CRUD operations`
@@ -316,13 +316,13 @@ This project implements an Arabic morphology system using advanced data structur
 
 **Tasks**:
 
-- [ ] Create `tests/test_hashtable.cpp`
-- [ ] Test insert and search correctness
-- [ ] Test collision handling (insert schemes with same hash)
-- [ ] Test delete and chain integrity
-- [ ] Analyze hash distribution (ideally uniform)
-- [ ] Test with real Arabic scheme names (فاعل، مفعول، etc.)
-- [ ] Measure load factor and collision rate
+- [x] Create `tests/test_hashtable.cpp`
+- [x] Test insert and search correctness
+- [x] Test collision handling (insert schemes with same hash)
+- [x] Test delete and chain integrity
+- [x] Analyze hash distribution (ideally uniform)
+- [x] Test with real Arabic scheme names (فاعل، مفعول، etc.)
+- [x] Measure load factor and collision rate
 
 **Deliverable**: Passing tests + distribution analysis report
 **Commit Message**: `test: Add hash table tests and collision analysis`
